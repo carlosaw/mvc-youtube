@@ -2,7 +2,8 @@
 class sobreController extends controller {
 
 	public function index() {
-		echo "ACTION INDEX NO CONTROLLER SOBRE";	
+		$array = array()	;
+    $this->loadTemplate("sobre", $array);
 	}
   public function carlos() {
     echo "Página sobre Carlos";
